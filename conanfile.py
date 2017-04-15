@@ -4,7 +4,7 @@ import os
 
 class CatchConan(ConanFile):
     name = "Catch"
-    version = "1.7.2"
+    version = "1.9.1"
     description = "A modern, C++-native, header-only, framework for unit-tests, TDD and BDD C++ Automated Test Cases in Headers"
     license = "Boost"
     url = "https://github.com/gasuketsu/conan-catch"
