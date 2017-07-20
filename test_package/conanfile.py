@@ -8,7 +8,7 @@ username = os.getenv("CONAN_USERNAME", "gasuketsu")
 
 class CatchTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "Catch/1.9.5@%s/%s" % (username, channel)
+    requires = "Catch/1.9.6@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
